@@ -3,7 +3,7 @@
 # get words from password dictionary file
 def get_dictionary():
     words = []
-    dictionary_file = open("dictionary.txt")
+    dictionary_file = open("u213/dictionary.txt")
     for line in dictionary_file:
         # store word, omitting trailing new-line
         words.append(line[:-1])
